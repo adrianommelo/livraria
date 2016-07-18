@@ -1,4 +1,4 @@
-package br.com.jsflivraria.bean;
+package br.com.jsflivraria.modelo;
 
 public class Livro {
 	private String titulo;

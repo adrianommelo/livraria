@@ -17,9 +17,11 @@
 					<h:inputText id="preco" value="#{livroBean.livro.preco}"/>
 					<h:outputLabel value="Data de lançamento:" for="dtLacamento" />
 					<h:inputText id="dtLacamento" value="#{livroBean.livro.dtLancamento}"/>
-					<h:commandButton value="Gravar" action="#{livroBean.gravar}"/>
 				</h:panelGrid>
 			</fieldset>
+			
+			<h:commandButton value="Gravar" action="#{livroBean.gravar}"/>
+			
 		</h:form>
 	</h:body>
 
