@@ -55,7 +55,7 @@ local.properties
 .recommenders/
 
 
-### Java ###
+# Java
 *.class
 
 # Mobile Tools for Java (J2ME)
