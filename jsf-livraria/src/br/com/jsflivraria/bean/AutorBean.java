@@ -14,7 +14,7 @@ public class AutorBean {
 		return autor;
 	}
 	public void gravar() {
-		System.out.println("Gravando autor " + this.autor.getNome());
+		System.out.println("Gravando autor " + this.autor.getNome() + ".");
 
 	}
 }
